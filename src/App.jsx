@@ -15,7 +15,7 @@ const skills = [
   { group: "Frontend", items: ["HTML", "CSS", "JavaScript (ES6)", "React.js"] },
   { group: "Backend", items: ["PHP", "Node.js", "Express.js", "REST APIs", "SQL", "MongoDB"] },
   { group: "CMS", items: ["WordPress", "Elementor", "Gutenberg", "Qubely", "Custom Post Types", "WooCommerce"] },
-  { group: "Tools", items: ["Git", "GitHub", "AWS Lambda"] },
+  { group: "Tools", items: ["Git", "GitHub", "AWS Lambda", "AWS S3"] },
 ];
 
 const projects = [
@@ -127,14 +127,14 @@ export default function App() {
           <div className="hero-visual" aria-hidden="true">
             <div className="blob b1" /><div className="blob b2" />
             <pre className="code-card">
-<span className="k">const</span> developer = {"{"}{"\n"}
-{"  "}name: <span className="s">"Takshika Verma"</span>,{"\n"}
-{"  "}stack: [<span className="s">"React"</span>, <span className="s">"Node.js"</span>,{"\n"}
-{"    "}<span className="s">"PHP"</span>, <span className="s">"WordPress"</span>],{"\n"}
-{"  "}experience: <span className="s">"2 years"</span>,{"\n"}
-{"  "}location: <span className="s">"Indore"</span>,{"\n"}
-{"  "}openToWork: <span className="k">true</span>,{"\n"}
-{"}"};
+              <span className="k">const</span> developer = {"{"}{"\n"}
+              {"  "}name: <span className="s">"Takshika Verma"</span>,{"\n"}
+              {"  "}stack: [<span className="s">"React"</span>, <span className="s">"Node.js"</span>,{"\n"}
+              {"    "}<span className="s">"PHP"</span>, <span className="s">"WordPress"</span>],{"\n"}
+              {"  "}experience: <span className="s">"2 years"</span>,{"\n"}
+              {"  "}location: <span className="s">"Indore"</span>,{"\n"}
+              {"  "}openToWork: <span className="k">true</span>,{"\n"}
+              {"}"};
             </pre>
           </div>
         </section>
